@@ -1,0 +1,20 @@
+---
+- summary: |
+    Добавление товара в корзину
+  status: pass
+  
+- summary: |
+    Фильтрация товара по бренду
+  status: pass
+  
+- summary: |
+    Смена языка сайта на русский
+  status: pass
+  
+- summary: |
+    Смена языка сайта на английский
+  status: pass
+  
+- summary: |
+    Фильтрация товара по категории
+  status: pass
