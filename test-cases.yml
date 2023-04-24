@@ -1,69 +1,69 @@
 ---
 - summary: |
     Добавление товара в корзину
-requirement: |
+ requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
-prerequisites:
+ prerequisites:
     Открыта главная страница
-test-data: |
+ test-data: |
     https://hexlet-products-store.vercel.app
-steps:
+ steps:
     - Нажимаем кнопку "Add to cart" под товаром
     - Нажием Cart в правом верхнем углу сайта
-expected-result: |
+ expected-result: |
     Товар отображается в корзине
 
 - summary: |
     Фильтрация товара по бренду
-requirement: |
+ requirement: |
     Пользователь должен иметь возможность фильтровать товары по бренду
-prerequisites:
+ prerequisites:
     Открыта главная страница
-test-data: |
+ test-data: |
     https://hexlet-products-store.vercel.app
-steps:
+ steps:
     - Ставим галочку напротив бенда Apple
-expected-result: |
+ expected-result: |
     Товар отфильтрован по бренду
     
 - summary: |
     Смена языка сайта на русский
-requirement: |
+ requirement: |
     Пользователь должен иметь возможность переключать язык сайта на русский
-prerequisites:
+ prerequisites:
     Открыта главная страница на английском языке
-test-data: |
+ test-data: |
     https://hexlet-products-store.vercel.app
-steps:
+ steps:
     - Нажимаем на кнопку "Language"
     - В появившемся окне нажимаем на кнопку "Russian"
-expected-result: |
+ expected-result: |
     - Интерфейс сайта отображаеся на русском языке
     
 - summary: |
     Смена языка сайта на английский
-requirement: |
+ requirement: |
     Пользователь должен иметь возможность переключать язык сайта на английский
-prerequisites:
+ prerequisites:
     Открыта главная страница на русском языке
-test-data: |
+ test-data: |
     https://hexlet-products-store.vercel.app
-steps:
+ steps:
     - Нажимаем на кнопку "Language"
     - В появившемся окне нажимаем на кнопку "English"
-expected-result: |
+ expected-result: |
     Интерфейс сайта отображаеся на английском языке
     
 - summary: |
     Фильтрация товара по категории
-requirement: |
+ requirement: |
     Пользователь должен иметь возможность фильтровать товар по категории
-prerequisites:
+ prerequisites:
     Открыта главная страница
-test-data: |
+ test-data: |
     https://hexlet-products-store.vercel.app
-steps:
+ steps:
     - Нажимаем на кнопку "Category"
     - В появившемся окне нажимаем на кнопку "Laptops"
-expected-result: |
+ expected-result: |
     Товар отфильтрован по категории
