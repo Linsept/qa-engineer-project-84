@@ -9,7 +9,7 @@
     https://hexlet-products-store.vercel.app
  steps:
     - Нажимаем кнопку "Add to cart" под товаром
-    - Нажием Cart в правом верхнем углу сайта
+    - Нажием Cart
  expected-result: |
     Товар отображается в корзине
 
