@@ -67,7 +67,7 @@
     Отображение иконки флага английского языка
   status: fail
     
-bugreports: []
+bugreports:
 - summary: |
     Смена языка сайта на русский
   environment: |
