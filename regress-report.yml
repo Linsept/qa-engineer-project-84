@@ -1,126 +1,127 @@
 ---
-- summary: |
-    Добавление товара в корзину
+test-cases:
+  - summary: |
+      Добавление товара в корзину
   status: pass
-  
-- summary: |
-    Фильтрация товара по бренду
+   
+  - summary: |
+      Фильтрация товара по бренду
   status: pass
-  
-- summary: |
-    Смена языка сайта на русский
+   
+  - summary: |
+      Смена языка сайта на русский
   status: fail
   
-- summary: |
-    Смена языка сайта на английский
+  - summary: |
+      Смена языка сайта на английский
   status: pass
   
-- summary: |
-    Фильтрация товара по хештегам категории
+  - summary: |
+      Фильтрация товара по хештегам категории
   status: pass
 
-- summary: |
-    Оформление заказа
+  - summary: |
+      Оформление заказа
   status: pass
     
-- summary: |
-    Добавление нескольких товаров в корзину
-  status: pass
-    
-- summary: |
-    Очистка корзины
-  status: pass
-    
-- summary: |
-    Использование поисковой строки
-  status: pass
-    
-- summary: |
-    Просмотр информации о товаре
-  status: pass
-    
-- summary: |
-    Фильтрация по максимальной цене товара
-  status: pass
-    
-- summary: |
-    Фильтрация по минимальной цене товара
+  - summary: |
+      Добавление нескольких товаров в корзину
   status: pass
   
-- summary: |
-    Проверка фильтра "In Stock"
-  status: fail
-    
-- summary: |
-    Навигация по страницам каталога
+  - summary: |
+      Очистка корзины
+  status: pass
+   
+  - summary: |
+      Использование поисковой строки
   status: pass
     
-- summary: |
-    Проверка отображения превью картинки товара
+  - summary: |
+      Просмотр информации о товаре
   status: pass
     
-- summary: |
-    Отображение иконки флага русского языка
+  - summary: |
+      Фильтрация по максимальной цене товара
+  status: pass
+    
+  - summary: |
+      Фильтрация по минимальной цене товара
+  status: pass
+  
+  - summary: |
+      Проверка фильтра "In Stock"
   status: fail
     
-- summary: |
-    Отображение иконки флага английского языка
+  - summary: |
+      Навигация по страницам каталога
+  status: pass
+    
+  - summary: |
+      Проверка отображения превью картинки товара
+  status: pass
+    
+  - summary: |
+      Отображение иконки флага русского языка
+  status: fail
+    
+  - summary: |
+      Отображение иконки флага английского языка
   status: fail
     
 bugreports:
-- summary: |
-    Смена языка сайта на русский
-  environment: |
-    Google Chrome   49.0.2623 (Официальная сборка) (64 бит)
-    ОС Windows 10 20h2
-    https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  steps-to-reproduce: |
-    - Нажать на кнопку "Language"
-    - В появившемся окне нажать на кнопку "Russian"
-  expected-result: |
-    Интерфейс сайта отображается на русском языке
-    Описание товаров отображается на русском языке
-  actual-result: |
-    Интерфейс сайта отображается на русском языке
-    Описание товаров отображается на английском языке
+  - summary: |
+      Смена языка сайта на русский
+    environment: |
+      Google Chrome   49.0.2623 (Официальная сборка) (64 бит)
+      ОС Windows 10 20h2
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    steps-to-reproduce: |
+      - Нажать на кнопку "Language"
+      - В появившемся окне нажать на кнопку "Russian"
+    expected-result: |
+      Интерфейс сайта отображается на русском языке
+      Описание товаров отображается на русском языке
+    actual-result: |
+      Интерфейс сайта отображается на русском языке
+      Описание товаров отображается на английском языке
     
-- summary: |
-    Проверка фильтра "In Stock"
-  environment: |
-    Google Chrome   49.0.2623 (Официальная сборка) (64 бит)
-    ОС Windows 10 20h2
-    https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  steps-to-reproduce: |
-    - Убрать галочку напротив фильта "In Stock"
-  expected-result: |
-    В каталоге товаров отображаются товары которых нет в наличии
-  actual-result: |
-    В каталоге товаров отображаются все товары
+  - summary: |
+      Проверка фильтра "In Stock"
+    environment: |
+      Google Chrome   49.0.2623 (Официальная сборка) (64 бит)
+      ОС Windows 10 20h2
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    steps-to-reproduce: |
+      - Убрать галочку напротив фильта "In Stock"
+    expected-result: |
+      В каталоге товаров отображаются товары которых нет в наличии
+    actual-result: |
+      В каталоге товаров отображаются все товары
     
-- summary: |
-    Отображение иконки флага русского языка
-  environment: |
-    Google Chrome   49.0.2623 (Официальная сборка) (64 бит)
-    ОС Windows 10 20h2
-    https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  steps-to-reproduce: |
-    - Нажать на кнопку "Language"
-    - В появившеся окне увидеть иконку флага Российской Федерации на уровне кнопки "Russian"
-  expected-result: |
-    Иконка флага Российской Федерации отображается рядом с кнопкой "Russian"
-  actual-result: |
-    Иконка флага Российской Федерации не отображается рядом с кнопкой "Russian"
+  - summary: |
+      Отображение иконки флага русского языка
+    environment: |
+      Google Chrome   49.0.2623 (Официальная сборка) (64 бит)
+      ОС Windows 10 20h2
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    steps-to-reproduce: |
+      - Нажать на кнопку "Language"
+      - В появившеся окне увидеть иконку флага Российской Федерации на уровне кнопки "Russian"
+    expected-result: |
+      Иконка флага Российской Федерации отображается рядом с кнопкой "Russian"
+    actual-result: |
+      Иконка флага Российской Федерации не отображается рядом с кнопкой "Russian"
     
-- summary: |
-    Отображение иконки флага английского языка
-  environment: |
-    Google Chrome   49.0.2623 (Официальная сборка) (64 бит)
-    ОС Windows 10 20h2
-    https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  steps-to-reproduce: |
-    - Нажать на кнопку "Language"
-    - В появившеся окне увидеть иконку флага Великобритании рядом с кнопкой "English"
-  expected-result: |
-    Иконка флага Великобритании отображается рядом с кнопкой "English"
-  actual-result: |
-    Иконка флага Великобритании не отображается рядом с кнопкой "English"
+  - summary: |
+      Отображение иконки флага английского языка
+    environment: |
+      Google Chrome   49.0.2623 (Официальная сборка) (64 бит)
+      ОС Windows 10 20h2
+      https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    steps-to-reproduce: |
+      - Нажать на кнопку "Language"
+      - В появившеся окне увидеть иконку флага Великобритании рядом с кнопкой "English"
+    expected-result: |
+      Иконка флага Великобритании отображается рядом с кнопкой "English"
+    actual-result: |
+      Иконка флага Великобритании не отображается рядом с кнопкой "English"
