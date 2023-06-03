@@ -9,7 +9,7 @@
   
 - summary: |
     Смена языка сайта на русский
-  status: pass
+  status: fail
   
 - summary: |
     Смена языка сайта на английский
@@ -18,3 +18,55 @@
 - summary: |
     Фильтрация товара по категории
   status: pass
+
+- summary: |
+    Оформление заказа
+  status: pass
+    
+- summary: |
+    Добавление нескольких товаров в корзину
+  status: pass
+    
+- summary: |
+    Очистка корзины
+  status: pass
+    
+- summary: |
+    Использование поисковой строки
+  status: pass
+    
+- summary: |
+    Просмотр информации о товаре
+  status: pass
+    
+- summary: |
+    Фильтрация по максимальной цене товара
+  status: pass
+    
+- summary: |
+    Фильтрация по минимальной цене товара
+  status: pass
+  
+- summary: |
+    Проверка фильтра "In Stock"
+  status: pass
+    
+- summary: |
+    Навигация по страницам каталога
+  status: pass
+    
+- summary: |
+    Проверка отображения превью картинки товара
+  status: pass
+    
+- summary: |
+    Проверка работы хештегов
+  status: pass
+    
+- summary: |
+    Отображение иконки флага русского языка
+  status: pass
+    
+- summary: |
+    Отображение иконки флага английского языка
+  status: fail
