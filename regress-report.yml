@@ -2,71 +2,71 @@
 test-cases:
   - summary: |
       Добавление товара в корзину
-  status: pass
+    status: pass
    
   - summary: |
       Фильтрация товара по бренду
-  status: pass
+    status: pass
    
   - summary: |
       Смена языка сайта на русский
-  status: fail
+    status: fail
   
   - summary: |
       Смена языка сайта на английский
-  status: pass
+    status: pass
   
   - summary: |
       Фильтрация товара по хештегам категории
-  status: pass
+    status: pass
 
   - summary: |
       Оформление заказа
-  status: pass
+    status: pass
     
   - summary: |
       Добавление нескольких товаров в корзину
-  status: pass
+    status: pass
   
   - summary: |
       Очистка корзины
-  status: pass
+    status: pass
    
   - summary: |
       Использование поисковой строки
-  status: pass
+    status: pass
     
   - summary: |
       Просмотр информации о товаре
-  status: pass
+    status: pass
     
   - summary: |
       Фильтрация по максимальной цене товара
-  status: pass
+    status: pass
     
   - summary: |
       Фильтрация по минимальной цене товара
-  status: pass
+    status: pass
   
   - summary: |
       Проверка фильтра "In Stock"
-  status: fail
+    status: fail
     
   - summary: |
       Навигация по страницам каталога
-  status: pass
+    status: pass
     
   - summary: |
       Проверка отображения превью картинки товара
-  status: pass
+    status: pass
     
   - summary: |
       Отображение иконки флага русского языка
-  status: fail
+    status: fail
     
   - summary: |
       Отображение иконки флага английского языка
-  status: fail
+    status: fail
     
 bugreports:
   - summary: |
